@@ -1,0 +1,29 @@
+{
+  "name": "Proyecto-Gps-Unamad",
+  "description": "Ejemplo Modulo Gps 6",
+  "main": "",
+  "authors": [
+    "ISI Unamad"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.2.4",
+    "angular": "~1.6.9",
+    "bootstrap": "~4.1.1",
+    "angular-ui-router": "^1.0.15",
+    "angular-resource": "^1.6.10",
+    "font-awesome": "~5.0.11"
+  },
+  "resolutions": {
+    "angular": "~1.6.9"
+  }
+  
+}

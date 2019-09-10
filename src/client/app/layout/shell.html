@@ -1,0 +1,49 @@
+<div class="row" id="contatti" ng-controller="shellController as vm">
+<div class="container mt-5" >
+
+    <div class="row" style="height:550px;">
+      <div class="col-md-6 maps" >
+
+<div class="mapa">
+    <cc-maps-position lat="-12.5800027830" long="-69.199950301"></cc-maps-position>
+
+</div>
+      </div>
+      <div class="col-md-6">
+        <h2 class="text-uppercase mt-3 font-weight-bold text-white">CONTATTACI</h2>
+        <form action="">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="form-group">
+              	<label>Latitude</label>
+                <input type="text" class="form-control mt-2" placeholder="Nome/Società" ng-model="vm.latitude" required>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="form-group">
+              	<label>Longitude</label>
+                <input type="text" class="form-control mt-2" placeholder="Oggetto" ng-model="vm.longitude" required>
+              </div>
+            </div>
+<!--             <div class="col-lg-6">
+              <div class="form-group">
+                <input type="email" class="form-control mt-2" placeholder="Email" required>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="form-group">
+                <input type="number" class="form-control mt-2" placeholder="Telefono" required>
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="form-group">
+                <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Inserisci testo" rows="3" required></textarea>
+              </div>
+            </div> -->
+          </div>
+        </form>
+      </div>
+
+    </div>
+</div>
+</div>
